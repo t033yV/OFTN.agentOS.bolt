@@ -14,8 +14,8 @@ Built with 🇲🇾 Malaysia and similar chat-driven markets in mind.
 
 ## 🌐 Live Demo
 
-👉 [Start WhatsApp Demo](https://your-netlify-link.com)  
-👉 [Visit Example Card Microsite](https://siti.agentos.my.id)
+👉 [Start WhatsApp Demo](https://starlit-chaja-55dc17.netlify.app/chat)  
+👉 [Visit Example Creating cards](https://starlit-chaja-55dc17.netlify.app/card)
 
 ---
 
