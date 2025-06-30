@@ -35,9 +35,23 @@ const Microsite = () => {
             <h1 className="text-lg font-bold text-gray-800">{username}.agentos.my.id</h1>
             <p className="text-sm text-gray-600">Professional Microsite</p>
           </div>
-          <div className="text-right">
-            <div className="text-sm font-semibold text-green-600">● Online</div>
-            <div className="text-xs text-gray-500">Powered by OFTN</div>
+          <div className="flex items-center gap-3">
+            <div className="text-right">
+              <div className="text-sm font-semibold text-green-600">● Online</div>
+              <div className="text-xs text-gray-500">Powered by OFTN</div>
+            </div>
+            <a 
+              href="https://bolt.new/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img 
+                src="/black_circle_360x360.png" 
+                alt="Powered by Bolt" 
+                className="w-8 h-8"
+              />
+            </a>
           </div>
         </div>
       </div>

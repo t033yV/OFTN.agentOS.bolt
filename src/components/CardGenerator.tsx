@@ -109,10 +109,22 @@ const CardGenerator = () => {
           <Link to="/" className="hover:bg-gray-100 p-2 rounded-full transition-colors">
             <ArrowLeft className="w-5 h-5" />
           </Link>
-          <div>
+          <div className="flex-1">
             <h1 className="text-xl font-bold text-gray-800">Create Professional Card</h1>
             <p className="text-sm text-gray-600">Generate your WhatsApp-ready identity card</p>
           </div>
+          <a 
+            href="https://bolt.new/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity"
+          >
+            <img 
+              src="/black_circle_360x360.png" 
+              alt="Powered by Bolt" 
+              className="w-8 h-8"
+            />
+          </a>
         </div>
       </div>
 

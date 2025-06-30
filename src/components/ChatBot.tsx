@@ -197,6 +197,18 @@ const ChatBot = () => {
             <h1 className="font-semibold">OFTN: AgentOS Bot</h1>
             <p className="text-sm text-green-100">WhatsApp Demo • Online</p>
           </div>
+          <a 
+            href="https://bolt.new/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity"
+          >
+            <img 
+              src="/black_circle_360x360.png" 
+              alt="Powered by Bolt" 
+              className="w-8 h-8"
+            />
+          </a>
         </div>
       </div>
 

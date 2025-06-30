@@ -5,8 +5,27 @@ import { MessageCircle, Users, Camera, Building2, Smartphone, Globe, Star } from
 const Landing = () => {
   return (
     <div className="min-h-screen">
+      {/* Header with Bolt Logo */}
+      <header className="absolute top-0 left-0 right-0 z-50 p-4">
+        <div className="max-w-6xl mx-auto flex items-center justify-between">
+          <a 
+            href="https://bolt.new/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+          >
+            <img 
+              src="/black_circle_360x360.png" 
+              alt="Powered by Bolt" 
+              className="w-10 h-10"
+            />
+            <span className="text-sm font-medium text-gray-700 hidden sm:block">Powered by Bolt</span>
+          </a>
+        </div>
+      </header>
+
       {/* Hero Section */}
-      <section className="relative py-20 px-4">
+      <section className="relative py-20 px-4 pt-32">
         <div className="max-w-6xl mx-auto text-center">
           <div className="mb-8">
             <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg mb-6">
