@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import ChatBot from './components/ChatBot';
 import Microsite from './components/Microsite';
 import CardGenerator from './components/CardGenerator';
+import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
   return (
@@ -12,7 +13,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/chat" element={<ChatBot />} />
-          <Route path="/card" element={<CardGenerator />} />
+          <Route 
+            path="/card" 
+            element={
+              <ProtectedRoute>
+                <CardGenerator />
+              </ProtectedRoute>
+            } 
+          />
           <Route path="/microsite/:username" element={<Microsite />} />
         </Routes>
       </div>
